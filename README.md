@@ -10,7 +10,7 @@ different units.
 
 ## Installation
 
-You can install the script from PIP with
+You can install the script from PIP wit
 ```shell
 pip install oxrse_unit_conv
 ```
