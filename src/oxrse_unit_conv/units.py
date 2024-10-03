@@ -20,6 +20,9 @@ mile = Unit(name='mile', abbr='mile', si=meter, to_si_fun=lambda n: n * 1_609.34
 
 # kilogram
 
+gram = Unit(name='gram', abbr="g", si=kilogram, to_si_fun=lambda n: n/1000)
+g = gram
+
 pound = Unit(name='pound', abbr='lb', si=kilogram, to_si_fun=lambda n: n * 0.4535924)
 lb = pound
 
